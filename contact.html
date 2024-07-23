@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -7,31 +8,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *
-        
-        {
+        body {
             margin: 0;
             padding: 0;
             border: none;
         }
-        .parents{
+
+        .parents {
             display: flex;
             justify-content: center;
             justify-content: space-between;
-           margin-top: 0px;
-           background-color: rgba(9, 9, 80, 0.879);
-           color: blanchedalmond;
-           padding: 20px;
+            margin-top: 0px;
+            background-color: rgba(9, 9, 80, 0.879);
+            color: blanchedalmond;
+            padding: 20px;
         }
-        .icon-setting{
+
+        .icon-setting {
             display: flex;
             justify-content: space-between;
             gap: 30px;
             align-items: baseline;
-            
+
 
         }
-        .parents-header{
+
+        .parents-header {
             display: flex;
             justify-content: center;
             justify-content: space-between;
@@ -43,48 +45,224 @@
         }
 
 
-        .icon2-setting{
+        .icon2-setting {
             display: flex;
-            
+
             justify-content: space-between;
             gap: 50px;
         }
-        .image{
-            
+
+        .image {
+
             width: 120px;
         }
 
+        .background-setting {
+            margin-top: -30px;
+            background-image: url("./hero1.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 500px;
+            display: flex;
+            justify-content: start;
+            color: blanchedalmond;
+            align-items: center;
+            padding-left: 100px;
+            margin-top: -10px;
 
+        }
 
+        .font {
+            font-size: 50px;
+        }
+
+        .pad {
+            padding: 15px;
+            border-radius: 5px;
+            width: 336px;
+            margin-bottom: 10px;
+        }
+
+        .buton {
+            padding: 25px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            background-color: rgba(22, 4, 155, 0.872);
+            color: bisque;
+            font-weight: bold;
+        }
+
+        .buton:hover {
+            background-color: rgb(0, 0, 106);
+
+        }
+
+        .parents-input {
+            background-color: rgb(234, 227, 227);
+            padding: 0px 50px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .father {
+            background-color: rgb(29, 29, 104);
+            padding: 100px;
+            color: beige;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grand-father {
+            display: flex;
+            justify-content: center;
+            padding: 50px 100px;
+            justify-content: baseline;
+        }
+        .first{
+            flex:3;
+            padding: 0px 50px ;
+        }
+        .second{
+            flex:3;
+        }
+        .third{
+            flex: 3;
+        }
+        .footer-parent{
+            display: flex;
+            justify-content: center;
+            background-color: rgba(1, 50, 139, 0.256);
+            align-items: center;
+        }
+        .linked-in{
+            background-color: blue;
+            display: inline;
+            padding: 5px;
+            color: wheat;
+            border-radius: 100px;
+        }
+        .footer-bottom{
+            background-color: rgb(15, 80, 80);
+            text-align: center;
+            color: wheat;
+            padding: 50px 0px;
+        }
     </style>
 </head>
+
 <body>
     <section>
         <div class="parents">
-    <div>
-        <p>Welcome to wolkinc - Transforming the Cloud Experience</p>
-    </div>
-    <div class="icon-setting">
-        <p><i class="fas fa-envelope"></i> info@wolkinc.com
-            </p>
-            <p><i class="fas fa-map-marker-alt"></i> Berlin, Germany</p>
-            <i class="fab fa-linkedin"></i>
-    </div>
-</div>
-</section>
-<section>
-    <div class="parents-header">
-    <div>
-        <img src="logo2.svg" class="image">
-    </div>
-    <div class="icon2-setting">
-        <p><a href="https://wolkinc.com/"></a>Home</p>
-        <p><a href="https://wolkinc.com/about"></a>About us</p>
-        <p><a href="https://wolkinc.com/services"></a>services</p>
-        <p><a href="https://wolkinc.com/contact"></a>contact</p>
-    </div>
-</div>
-</section>
-    
+            <div>
+                <p>Welcome to wolkinc - Transforming the Cloud Experience</p>
+            </div>
+            <div class="icon-setting">
+                <p><i class="fas fa-envelope"></i> info@wolkinc.com
+                </p>
+                <p><i class="fas fa-map-marker-alt"></i> Berlin, Germany</p>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="parents-header">
+            <div>
+                <img src="logo2.svg" class="image">
+            </div>
+            <div class="icon2-setting">
+                <p><a href="https://wolkinc.com/"></a>Home</p>
+                <p><a href="https://wolkinc.com/about"></a>About us</p>
+                <p><a href="https://wolkinc.com/services"></a>services</p>
+                <p><a href="https://wolkinc.com/contact"></a>contact</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="background-setting">
+            <div class="alphabet-setting">
+                <h4>HOME /
+                    CONTACT</h4>
+                <h1 class="font">Contact Us</h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grand-father">
+            <div class="parents-input">
+                <div>
+                    <h1>Join Us To Get Consultations</h1>
+                </div>
+                <div><input type="text" placeholder="Your Name" name="name" class="pad"></div>
+                <div>
+                    <input type="text" placeholder="Email Address" class="pad">
+                </div>
+                <div>
+                    <textarea placeholder="write Message" class="pad"></textarea>
+                </div>
+                <div>
+                    <button class="buton">SEND MESSAGE</button>
+                </div>
+
+            </div>
+            <div class="father">
+                <div>
+                    <h1>ADDRESS</h1>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-location-pin"></i> Berlin, Germany</p>
+                </div>
+                <div>
+                    <h1><i class="fa-solid fa-phone"></i> PHONE
+                    </h1>
+                    <div>
+                        <h1>+994557281746</h1>
+                    </div>
+                </div>
+                <div>
+                    <h1>EMAIL</h1>
+                </div>
+                <div>
+                    <a><i class="fa-solid fa-envelope"></i> info@wolkinc.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer-parent">
+            <div class="first">
+            <img src="./logo2.svg" width="100" height="100">
+            <p>We work with a passion of taking challenges and on creating cutting-edge solutions for streamlined operations.</p>
+            <div class="linked-in">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            </div>
+            <div class="second">
+              <h2>Services</h2>
+              <p>DevOps Services</p>
+              <p>DevOps Services</p>
+              <p>DevOps Services</p>
+              <p>DevOps Services</p>
+              <p>DevOps Services</p>
+            </div>
+            <div class="third">
+             <h2>Contact</h2>
+             <p>0334354325</p>
+             <p>0334354325</p>
+             <p>0334354325</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer-bottom">
+            <p>© 2024 All Copyrights Reserved By Wolkinc</p>
+        </div>
+    </section>
 </body>
+
 </html>
